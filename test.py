@@ -1,5 +1,5 @@
 import numpy as np
-import GA
+from src import GA
 from scipy.signal import find_peaks, peak_prominences
 import CSV_einlesen
 from matplotlib import pyplot as plt
