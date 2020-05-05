@@ -1,7 +1,6 @@
 import numpy as np
-from src import GA
+from src import GA, CSV_einlesen
 from scipy.signal import find_peaks, peak_prominences
-import CSV_einlesen
 from matplotlib import pyplot as plt
 
 x= CSV_einlesen.x
